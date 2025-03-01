@@ -20,7 +20,7 @@
       }
     </style>
   </head>
-  <body class="poppins-font max-w-screen-2xl mx-auto bg-slate-100">
+  <body class="poppins-font px-10 mx-auto bg-slate-100">
     <header class="my-4">
       <nav class="rounded-lg bg-white p-4 flex justify-between">
         <div class="nav-logo flex items-center gap-2">
@@ -35,7 +35,7 @@
             class="flex items-center gap-5 rounded-full bg-slate-100 px-4 py-2"
           >
             <div><img src="./assets/checkbox.png" alt="checkbox" /></div>
-            <div class="font-bold text-3xl">23</div>
+            <div id="total-number" class="font-bold text-3xl">23</div>
           </div>
           <div>
             <img src="./assets/theme-btn.png" alt="theme button" />
@@ -53,7 +53,9 @@
             </div>
             <div class="">
               <div class="font-medium text-sm">Task Assignment</div>
-              <div class="font-bold text-3xl">05</div>
+              <div id="task-assignment-number" class="font-bold text-3xl">
+                6
+              </div>
             </div>
           </div>
           <div
@@ -86,7 +88,9 @@
               <h5 class="bg-white rounded-md p-2 font-normal text-sm w-fit">
                 ShopEase
               </h5>
-              <h3 class="font-medium text-2xl">Fix Mobile Button Issue</h3>
+              <h3 id="card-title-1" class="font-medium text-2xl">
+                Fix Mobile Button Issue
+              </h3>
               <p class="bg-white rounded-md p-4 truncate">
                 Debug using Chrome DevTools, check for overlapping elements, and
                 ensure onClick works properly and ensure onClick works properly
@@ -100,22 +104,26 @@
                 <span>21 March 2025</span>
               </div>
               <button
+                id="card-btn-1"
                 class="bg-[#3752FD] text-white px-5 py-2.5 rounded-lg my-2"
               >
                 Completed
               </button>
             </div>
           </div>
-          <!-- card-1 -->
+
+          <!-- card-2 -->
           <div class="bg-slate-100 rounded-lg p-4">
             <div class="flex flex-col gap-4 mb-4">
               <h5 class="bg-white rounded-md p-2 font-normal text-sm w-fit">
-                ShopEase
+                CloudSync
               </h5>
-              <h3 class="font-medium text-2xl">Fix Mobile Button Issue</h3>
+              <h3 id="card-title-2" class="font-medium text-2xl">
+                Add Dark Mode
+              </h3>
               <p class="bg-white rounded-md p-4 truncate">
-                Debug using Chrome DevTools, check for overlapping elements, and
-                ensure onClick works properly and ensure onClick works properly
+                Store the user's preference in localStorage, update CSS
+                variables dynamically, and apply a smooth transition effect.
               </p>
             </div>
             <hr class="border-t-2 w-full border-dashed border-slate-200" />
@@ -126,19 +134,22 @@
                 <span>21 March 2025</span>
               </div>
               <button
+                id="card-btn-2"
                 class="bg-[#3752FD] text-white px-5 py-2.5 rounded-lg my-2"
               >
                 Completed
               </button>
             </div>
           </div>
-          <!-- card-1 -->
+          <!-- card-3 -->
           <div class="bg-slate-100 rounded-lg p-4">
             <div class="flex flex-col gap-4 mb-4">
               <h5 class="bg-white rounded-md p-2 font-normal text-sm w-fit">
-                ShopEase
+                SwiftPay
               </h5>
-              <h3 class="font-medium text-2xl">Fix Mobile Button Issue</h3>
+              <h3 id="card-title-3" class="font-medium text-2xl">
+                Optimize Home page 
+              </h3>
               <p class="bg-white rounded-md p-4 truncate">
                 Debug using Chrome DevTools, check for overlapping elements, and
                 ensure onClick works properly and ensure onClick works properly
@@ -152,19 +163,22 @@
                 <span>21 March 2025</span>
               </div>
               <button
+                id="card-btn-3"
                 class="bg-[#3752FD] text-white px-5 py-2.5 rounded-lg my-2"
               >
                 Completed
               </button>
             </div>
           </div>
-          <!-- card-1 -->
+          <!-- card-4 -->
           <div class="bg-slate-100 rounded-lg p-4">
             <div class="flex flex-col gap-4 mb-4">
               <h5 class="bg-white rounded-md p-2 font-normal text-sm w-fit">
-                ShopEase
+                Meta
               </h5>
-              <h3 class="font-medium text-2xl">Fix Mobile Button Issue</h3>
+              <h3 id="card-title-4" class="font-medium text-2xl">
+                Add new emoji 🤲
+              </h3>
               <p class="bg-white rounded-md p-4 truncate">
                 Debug using Chrome DevTools, check for overlapping elements, and
                 ensure onClick works properly and ensure onClick works properly
@@ -178,19 +192,22 @@
                 <span>21 March 2025</span>
               </div>
               <button
+                id="card-btn-4"
                 class="bg-[#3752FD] text-white px-5 py-2.5 rounded-lg my-2"
               >
                 Completed
               </button>
             </div>
           </div>
-          <!-- card-1 -->
+          <!-- card-5 -->
           <div class="bg-slate-100 rounded-lg p-4">
             <div class="flex flex-col gap-4 mb-4">
               <h5 class="bg-white rounded-md p-2 font-normal text-sm w-fit">
-                ShopEase
+                MetGoogle LLC
               </h5>
-              <h3 class="font-medium text-2xl">Fix Mobile Button Issue</h3>
+              <h3 id="card-title-5" class="font-medium text-2xl">
+                Integrate OpenAI API
+              </h3>
               <p class="bg-white rounded-md p-4 truncate">
                 Debug using Chrome DevTools, check for overlapping elements, and
                 ensure onClick works properly and ensure onClick works properly
@@ -204,19 +221,22 @@
                 <span>21 March 2025</span>
               </div>
               <button
+                id="card-btn-5"
                 class="bg-[#3752FD] text-white px-5 py-2.5 rounded-lg my-2"
               >
                 Completed
               </button>
             </div>
           </div>
-          <!-- card-1 -->
+          <!-- card-6 -->
           <div class="bg-slate-100 rounded-lg p-4">
             <div class="flex flex-col gap-4 mb-4">
               <h5 class="bg-white rounded-md p-2 font-normal text-sm w-fit">
-                ShopEase
+                Glassdoar
               </h5>
-              <h3 class="font-medium text-2xl">Fix Mobile Button Issue</h3>
+              <h3 id="card-title-6" class="font-medium text-2xl">
+                Improve Job searching
+              </h3>
               <p class="bg-white rounded-md p-4 truncate">
                 Debug using Chrome DevTools, check for overlapping elements, and
                 ensure onClick works properly and ensure onClick works properly
@@ -230,6 +250,7 @@
                 <span>21 March 2025</span>
               </div>
               <button
+                id="card-btn-6"
                 class="bg-[#3752FD] text-white px-5 py-2.5 rounded-lg my-2"
               >
                 Completed
@@ -258,13 +279,15 @@
             />
           </div>
 
-          <div class="bg-white rounded-b-lg p-4 flex-grow">
-            <p class="text-sm font-normal rounded-md bg-slate-100 p-4">
-              You have Complete The Task Add Dark Mode at 12:48:15 PM
-            </p>
+          <div
+            id="history-container"
+            class="bg-white rounded-b-lg p-4 flex-grow flex flex-col gap-4"
+          >
+            <!-- add histoy child -->
           </div>
         </div>
       </section>
     </main>
+    <script src="board-update.js"></script>
   </body>
 </html>
