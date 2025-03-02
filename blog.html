@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>blog</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- style -->
+    <style>
+      .poppins-font {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="poppins-font px-10 mx-auto bg-slate-100">
+    <header class="my-4">
+      <nav class="rounded-lg bg-white p-4 flex justify-between">
+        <div class="nav-logo flex items-center gap-2">
+          <img src="./assets/logo.png" alt="navbar logo" />
+          <h3>
+            <span class="font-light text-4xl">Dev</span
+            ><span class="text-4xl font-bold">Board</span>
+          </h3>
+        </div>
+        <div>
+          <button
+            id="back-btn"
+            class="bg-[#3752FD] text-white px-5 py-2.5 rounded-lg my-2"
+          >
+            Back to Desk
+          </button>
+        </div>
+      </nav>
+    </header>
+    <main class="flex flex-col gap-4">
+      <!-- questin 1 -->
+      <div class="bg-white rounded-md">
+        <h1 class="font-bold p-4">
+          Question-1: What are the different ways to select an element in the
+          DOM?
+        </h1>
+        <hr class="opacity-60" />
+        <div class="p-4">
+          <ol class="list-disc pl-4">
+            <li>document.getElementById("id-name")</li>
+            <li>document.getElementByClassName("class-name")</li>
+            <li>document.getElementByTagName("tag-name")</li>
+            <li>document.querySelector(".class-name")</li>
+            <li>document.querySelectorAll("tagName.className")</li>
+          </ol>
+        </div>
+      </div>
+      <!-- questin 2 -->
+      <div class="bg-white rounded-md">
+        <h1 class="font-bold p-4">
+          Question-2: What is the difference between innerHTML, innerText, and
+          textContent ?
+        </h1>
+        <hr class="opacity-60" />
+        <div class="p-4">
+          <ol class="list-disc pl-4">
+            <li>innerHTML -> returns HTML tag and inner text of an element.</li>
+            <li>
+              innerText -> returns only the inner text of an element, without
+              spacing and css hidden text.
+            </li>
+            <li>
+              innerContent -> The text content of the element and all
+              descendaces with spacing and css hidden text.
+            </li>
+          </ol>
+        </div>
+      </div>
+      <!-- questin 3 -->
+      <div class="bg-white rounded-md">
+        <h1 class="font-bold p-4">
+          Question-3: What is event delegation in the DOM?
+        </h1>
+        <hr class="opacity-60" />
+        <div class="p-4">
+          Event Delegation is a technique in JavaScript where you delegate the
+          handling of events to a parent element rather than attaching event
+          listeners to individual child elements.
+        </div>
+      </div>
+      <!-- questin 4 -->
+      <div class="bg-white rounded-md">
+        <h1 class="font-bold p-4">
+          Question-4: What is event bubbling in the DOM?
+        </h1>
+        <hr class="opacity-60" />
+        <div class="p-4">
+          When an event (like a click) happens on an element, it doesn’t just
+          stay there it travels up through its parent elements, it is called
+          bubble rising. This means if you click a button inside a div, the
+          click event will first trigger on the button, then "bubble up" to the
+          div, and keep going up to the body and even the document itself.
+        </div>
+      </div>
+      <!-- questin 4 -->
+      <div class="bg-white rounded-md">
+        <h1 class="font-bold p-4">
+          Question-5: How do you create, add, and remove elements using
+          JavaScript?
+        </h1>
+        <hr class="opacity-60" />
+        <div class="p-4">
+          <ul class="list-disc pl-4">
+            <li>
+              Create Element -> const newElement = document.createElement('div')
+            </li>
+            <li>Add element -> parentElement.appendChild(newElement)</li>
+            <li>Remove element -> parentElement.removeChild(childElement);</li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <script src="home.js"></script>
+  </body>
+</html>
