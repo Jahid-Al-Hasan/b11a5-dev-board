@@ -20,7 +20,7 @@ document.getElementById("card-btn-1").addEventListener("click", function () {
   );
   let cardTitle = document.getElementById("card-title-1").innerText;
   historyAdd.innerText =
-    "You have Complete The Task " + cardTitle + " at " + localTime;
+    "You have Complete The Task " + cardTitle + " at " + getLocalTime();
   let historyContainer = document.getElementById("history-container");
   historyContainer.appendChild(historyAdd);
   // task check
@@ -55,7 +55,7 @@ document.getElementById("card-btn-2").addEventListener("click", function () {
   let cardTitle2 = document.getElementById("card-title-2").innerText;
 
   historyAdd.innerText =
-    "You have Complete The Task " + cardTitle2 + " at " + localTime;
+    "You have Complete The Task " + cardTitle2 + " at " + getLocalTime();
   let historyContainer = document.getElementById("history-container");
   historyContainer.appendChild(historyAdd);
   // task check
@@ -89,7 +89,7 @@ document.getElementById("card-btn-3").addEventListener("click", function () {
   );
   let cardTitle3 = document.getElementById("card-title-3").innerText;
   historyAdd.innerText =
-    "You have Complete The Task " + cardTitle3 + " at " + localTime;
+    "You have Complete The Task " + cardTitle3 + " at " + getLocalTime();
   let historyContainer = document.getElementById("history-container");
   historyContainer.appendChild(historyAdd);
   // task check
@@ -123,7 +123,7 @@ document.getElementById("card-btn-4").addEventListener("click", function () {
   );
   let cardTitle4 = document.getElementById("card-title-4").innerText;
   historyAdd.innerText =
-    "You have Complete The Task " + cardTitle4 + " at " + localTime;
+    "You have Complete The Task " + cardTitle4 + " at " + getLocalTime();
   let historyContainer = document.getElementById("history-container");
   historyContainer.appendChild(historyAdd);
   // task check
@@ -157,7 +157,7 @@ document.getElementById("card-btn-5").addEventListener("click", function () {
   );
   let cardTitle5 = document.getElementById("card-title-5").innerText;
   historyAdd.innerText =
-    "You have Complete The Task " + cardTitle5 + " at " + localTime;
+    "You have Complete The Task " + cardTitle5 + " at " + getLocalTime();
   let historyContainer = document.getElementById("history-container");
   historyContainer.appendChild(historyAdd);
   // task check
@@ -191,7 +191,7 @@ document.getElementById("card-btn-6").addEventListener("click", function () {
   );
   let cardTitle6 = document.getElementById("card-title-6").innerText;
   historyAdd.innerText =
-    "You have Complete The Task " + cardTitle6 + " at " + localTime;
+    "You have Complete The Task " + cardTitle6 + " at " + getLocalTime();
   let historyContainer = document.getElementById("history-container");
   historyContainer.appendChild(historyAdd);
   // task check

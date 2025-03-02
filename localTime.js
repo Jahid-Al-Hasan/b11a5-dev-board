@@ -1,4 +1,6 @@
-let localTime = new Date().toLocaleTimeString();
+function getLocalTime() {
+  return new Date().toLocaleTimeString();
+}
 
 let currentDate = new Date();
 
