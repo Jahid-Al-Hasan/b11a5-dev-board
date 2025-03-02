@@ -37,7 +37,7 @@
             <div><img src="./assets/checkbox.png" alt="checkbox" /></div>
             <div id="total-number" class="font-bold text-3xl">23</div>
           </div>
-          <div>
+          <div id="bg-change" class="cursor-pointer">
             <img src="./assets/theme-btn.png" alt="theme button" />
           </div>
         </div>
@@ -275,7 +275,10 @@
               </div>
               <div>Activity Log</div>
             </div>
-            <button class="bg-[#3752FD] text-white px-5 py-2.5 rounded-lg my-4">
+            <button
+              id="clear-history"
+              class="bg-[#3752FD] text-white px-5 py-2.5 rounded-lg my-4"
+            >
               Clear History
             </button>
             <hr
@@ -293,7 +296,9 @@
       </section>
     </main>
     <script src="localTime.js"></script>
-    <script src="board-update.js"></script>
+    <script src="history-update.js"></script>
     <script src="navigate.js"></script>
+    <script src="bg-change.js"></script>
+    <script src="clean_history.js"></script>
   </body>
 </html>
