@@ -23,6 +23,13 @@ document.getElementById("card-btn-1").addEventListener("click", function () {
     "You have Complete The Task " + cardTitle + " at " + localTime;
   let historyContainer = document.getElementById("history-container");
   historyContainer.appendChild(historyAdd);
+  // task check
+  const taskNumber = document.getElementById(
+    "task-assignment-number"
+  ).innerText;
+  if (taskNumber == 0) {
+    alert("Congrates!!! You have completed all the current task");
+  }
 });
 
 // card - 2
@@ -51,6 +58,13 @@ document.getElementById("card-btn-2").addEventListener("click", function () {
     "You have Complete The Task " + cardTitle2 + " at " + localTime;
   let historyContainer = document.getElementById("history-container");
   historyContainer.appendChild(historyAdd);
+  // task check
+  const taskNumber = document.getElementById(
+    "task-assignment-number"
+  ).innerText;
+  if (taskNumber == 0) {
+    alert("Congrates!!! You have completed all the current task");
+  }
 });
 
 // card - 3
@@ -78,6 +92,13 @@ document.getElementById("card-btn-3").addEventListener("click", function () {
     "You have Complete The Task " + cardTitle3 + " at " + localTime;
   let historyContainer = document.getElementById("history-container");
   historyContainer.appendChild(historyAdd);
+  // task check
+  const taskNumber = document.getElementById(
+    "task-assignment-number"
+  ).innerText;
+  if (taskNumber == 0) {
+    alert("Congrates!!! You have completed all the current task");
+  }
 });
 
 // card - 4
@@ -105,6 +126,13 @@ document.getElementById("card-btn-4").addEventListener("click", function () {
     "You have Complete The Task " + cardTitle4 + " at " + localTime;
   let historyContainer = document.getElementById("history-container");
   historyContainer.appendChild(historyAdd);
+  // task check
+  const taskNumber = document.getElementById(
+    "task-assignment-number"
+  ).innerText;
+  if (taskNumber == 0) {
+    alert("Congrates!!! You have completed all the current task");
+  }
 });
 
 // card - 5
@@ -132,6 +160,13 @@ document.getElementById("card-btn-5").addEventListener("click", function () {
     "You have Complete The Task " + cardTitle5 + " at " + localTime;
   let historyContainer = document.getElementById("history-container");
   historyContainer.appendChild(historyAdd);
+  // task check
+  const taskNumber = document.getElementById(
+    "task-assignment-number"
+  ).innerText;
+  if (taskNumber == 0) {
+    alert("Congrates!!! You have completed all the current task");
+  }
 });
 
 // card - 6
@@ -159,4 +194,11 @@ document.getElementById("card-btn-6").addEventListener("click", function () {
     "You have Complete The Task " + cardTitle6 + " at " + localTime;
   let historyContainer = document.getElementById("history-container");
   historyContainer.appendChild(historyAdd);
+  // task check
+  const taskNumber = document.getElementById(
+    "task-assignment-number"
+  ).innerText;
+  if (taskNumber == 0) {
+    alert("Congrates!!! You have completed all the current task");
+  }
 });
